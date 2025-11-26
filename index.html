@@ -202,6 +202,11 @@
             color: white;
         }
         
+        .btn-success {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+        }
+        
         .btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -343,7 +348,11 @@
                     QR-код<br>IT-Школа
                 </div>
                 
-                <p><strong>Ссылка:</strong>https://hidenf901.github.io/il9012/</p>
+                 
+                
+                <div style="margin-top: 20px;">
+                    <a href="https://hidenf901.github.io/il9012/" class="btn btn-success" target="_blank">Перейти на сайт</a>
+                </div>
             </div>
             
             <div class="buttons">
@@ -354,7 +363,7 @@
         
         <div class="footer">
             <p>© 2024 IT-Школа. Все права защищены. Сайт работает на GitHub Pages</p>
-            <p>📧 Контакты: itschool@email.com | 📞 +7 (918) 012-59-42</p>
+            <p>📧 Контакты: itschool@email.com | 📞 +7 (999) 123-45-67</p>
         </div>
     </div>
 
@@ -407,7 +416,7 @@
         function showCurrentURL() {
             const urlElement = document.querySelector('.qr-section p strong');
             if (urlElement) {
-                urlElement.textContent = `Ссылка: ${window.location.href}`;
+                urlElement.textContent = `Ссылка: https://hidenf901.github.io/il9012/`;
             }
         }
         
